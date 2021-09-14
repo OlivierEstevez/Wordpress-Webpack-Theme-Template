@@ -1,0 +1,32 @@
+{
+  "name": "Wordpress-Webpack-Theme-Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlivierEstevez/Wordpress-Webpack-Theme-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlivierEstevez/Wordpress-Webpack-Theme-Template/issues"
+  },
+  "homepage": "https://github.com/OlivierEstevez/Wordpress-Webpack-Theme-Template#readme",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.3.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
