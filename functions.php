@@ -2,6 +2,11 @@
 
 defined( 'ABSPATH' ) || exit;
 
+// Remember to add these in wp-config.php
+// define( 'WP_DEBUG', true );
+// define( 'WP_DEBUG_DISPLAY', false );
+// define( 'WP_DEBUG_LOG', true );
+
 function add_scripts() {
 
     // CSS
@@ -21,11 +26,3 @@ add_action("wp_enqueue_scripts", "add_scripts");
 add_theme_support( 'menus' );
 
 ?>
-
-
-<!--
-Remember to add these in wp-config.php
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_DISPLAY', false );
-define( 'WP_DEBUG_LOG', true );
--->
