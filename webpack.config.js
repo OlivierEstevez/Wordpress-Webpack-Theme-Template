@@ -17,12 +17,12 @@ module.exports = {
                 use: [MiniCSSExtractPlugin.loader, "css-loader", "sass-loader"]
             },
             {
-                test: /\.(woff2?|ttf|otf|eot|svg)$/,
-                exclude: /node_modules/,
-                loader: 'file-loader',
-                options: {
-                    name: '[path][name].[ext]'
-                }
+                test: /\.(png?|jpg|jpeg|svg)$/,
+                type: "asset/resource"
+            },
+            {
+                test: /\.(woff2?|ttf|otf|eot)$/,
+                type: "asset/inline"
             }
         ]
     },

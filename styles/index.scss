@@ -1,5 +1,11 @@
 @import "reset.css";
 
+@font-face {
+    font-family: "Banana";
+    src: url(./../assets/fonts/BananaGrotesk-Bold.otf) format("opentype");
+    font-weight: 400;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: "Banana", serif;
 }
